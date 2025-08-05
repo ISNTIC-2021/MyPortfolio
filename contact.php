@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($message)) $errors[] = "Please write a message.";
 
     if (empty($errors)) {
-        $to = "your-email@example.com"; // Replace with your email
+        $to = "saidboussif256@gmail.com"; // Replace with your email
         $email_subject = "New Contact Form Submission: $subject";
 
         // HTML Email Template
